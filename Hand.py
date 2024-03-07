@@ -33,7 +33,6 @@ class Hand:
 
     def __update_possible_pts(self, add_pts: int):
         new_possible_pts = []
-
         for pts in self.__pts:
             pts_map = 10 if add_pts in [11, 12, 13] else add_pts
             new_pts = pts + pts_map

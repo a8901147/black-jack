@@ -13,6 +13,7 @@ class Dealer(Person):
                 return True
 
             self.add_cards(cards.pop(),False)
+
             if not self.get_pts:
                 return False
 
